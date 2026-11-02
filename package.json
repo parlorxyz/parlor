@@ -1,0 +1,12 @@
+{
+  "name": "@parlorxyz/e2e",
+  "version": "1.0.0",
+  "description": "Parlor's wallet-to-wallet end-to-end encryption: Ed25519 signature → X25519 → HKDF-SHA-256 → AES-256-GCM",
+  "type": "module",
+  "main": "client/e2e.js",
+  "scripts": { "test": "node --test client/e2e.test.mjs" },
+  "engines": { "node": ">=20" },
+  "homepage": "https://parlorxyz.com",
+  "repository": { "type": "git", "url": "https://github.com/parlorxyz/parlor.git" },
+  "keywords": ["solana", "e2e", "encryption", "x25519", "webcrypto", "wallet", "messaging"]
+}
